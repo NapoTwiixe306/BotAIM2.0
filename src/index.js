@@ -5,4 +5,4 @@ let client = new GotoCLient({
     prefix: '?'
 });
 
-client.login(process.config.env.TOKEN);
+client.login(process.env.TOKEN);
